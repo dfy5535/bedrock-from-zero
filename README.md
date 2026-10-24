@@ -1,8 +1,13 @@
-# Bedrock Flow
+# Bedrock From Zero
+### 我的世界基岩版 MOD 开发 · 从零开始
 
-> An evidence-driven **pipeline for building Minecraft Bedrock Add-Ons with AI agents** —
-> and the reason it actually ships: every stage is gated by real runtime proof, never by "looks fine".
+> Minecraft Bedrock Add-On development from zero — a working lab plus the pitfalls that
+> cost real hours, with every stage gated by runtime proof instead of "looks fine".
 
+**中文摘要**：这个仓库不是模版，是一套**能跑起来的环境 + 一份踩坑档案**。
+你得到的不只是文档：`tools/` 里有一个号牌系统（多人分槽跑服务器）和一个无头 Bot，
+一条命令装好整个实验室；`docs/` 里有 19 篇从真实项目 15 轮迭代里提炼的篇章，
+其中最值钱的是三份坑位清单——每一条都来自真机事故，而且**都不报错**。
 Bedrock Flow is not an Add-On template. It is a **process framework**: a set of skills, gates,
 and small tools that force an AI agent (or a human) to produce Bedrock Add-Ons that are
 *verifiably* correct on a real server — not merely valid JSON.
