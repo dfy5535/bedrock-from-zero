@@ -1,0 +1,11 @@
+config/local.env
+state/
+slots/
+logs/
+artifacts/
+evidence/
+*.log
+*.pyc
+__pycache__/
+node_modules/
+.DS_Store
